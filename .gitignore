@@ -1,0 +1,26 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Python
+frontend/venv/
+frontend/**/__pycache__/
+frontend/**/*.pyc
+
+# Secrets & environment
+**/appsettings.Development.json
+frontend/.env
+
+# Editor
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
